@@ -10,7 +10,14 @@
 #include <sys/wait.h>
 
 extern char **environ;
-
+/**
+ * struct dirs - singly linked list
+ * @d: string pointer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
+*/
 typedef struct dirs
 {
 	char *d;
