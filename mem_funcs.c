@@ -78,6 +78,7 @@ void free_list(path_t *head)
 void free_grid(char **s)
 {
 	unsigned int i;
+
 	if (s)
 	{
 		for (i = 0; s[i] != NULL; i++)
@@ -85,3 +86,4 @@ void free_grid(char **s)
 		free(s);
 	}
 }
+

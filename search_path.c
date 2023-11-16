@@ -115,3 +115,4 @@ path_t *add_node_e(path_t **head, char *str)
 	}
 	return (new);
 }
+

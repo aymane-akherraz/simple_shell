@@ -99,3 +99,4 @@ void search_exe(char **argv, path_t **head, char *buf, int *b)
 	}
 	free_grid(argv);
 }
+
